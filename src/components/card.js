@@ -5,6 +5,7 @@ different states of the animation, and the `className` prop applies the styles t
 `children` prop is used to render any child components passed to the `Card` component. Finally, the
 `export default` statement exports the `Card` component so it can be used in other parts of the
 application. */
+'use client';
 
 import { css } from 'linaria'
 import { motion } from 'framer-motion'

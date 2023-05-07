@@ -1,4 +1,15 @@
+'use client';
+
 import Image from 'next/image'
+
+import { useState, useEffect } from 'react'
+import Head from 'next/head'
+import { styled } from 'linaria/react'
+import { motion } from 'framer-motion'
+import ky from 'ky-universal'
+
+import Calculator from '../components/calculator'
+import Leaderboard from '../components/leaderboard'
 
 export default function Home() {
   return (

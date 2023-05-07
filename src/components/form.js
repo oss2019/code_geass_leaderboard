@@ -2,6 +2,7 @@
 the Framer Motion library for animations. The components being defined are a form, label, input
 field, and submit button, each with their own styles. These components can then be imported and used
 in other parts of the codebase. */
+'use client';
 
 import { styled } from "linaria/react";
 import { motion } from "framer-motion";

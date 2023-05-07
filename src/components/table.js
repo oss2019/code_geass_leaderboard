@@ -7,6 +7,7 @@ headers. The `TableHeader` component is a functional component that renders the 
 the `ColumnHeader` component and passes in props for sorting. The `TableItem` component is a
 functional component that renders a single row of the table using the `Divider` component and
 `motion` components for animations. */
+'use client';
 
 import { styled } from 'linaria/react'
 import { motion } from 'framer-motion'

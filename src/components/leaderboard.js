@@ -3,6 +3,7 @@ useState and useEffect hooks from React, as well as the motion library from Fram
 imports the Card, Table, TableItem, and TableHeader components from other files. */
 
 /* eslint-disable react-hooks/rules-of-hooks */
+'use client';
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
