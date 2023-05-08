@@ -4,7 +4,7 @@ field, and submit button, each with their own styles. These components can then 
 in other parts of the codebase. */
 'use client';
 
-import { styled } from "linaria/react";
+import { styled } from "@linaria/react";
 import { motion } from "framer-motion";
 
 export const Form = styled.form`

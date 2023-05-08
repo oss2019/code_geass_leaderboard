@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 import Card from "./card";
 import { Table, TableItem, TableHeader } from "./table";
 
-export default props = () => {
+export default props => {
   const [scores, setScores] = useState(props.scores);
 
   const sortScores = type => {

@@ -9,7 +9,7 @@ functional component that renders a single row of the table using the `Divider` 
 `motion` components for animations. */
 'use client';
 
-import { styled } from 'linaria/react'
+import { styled } from '@linaria/react'
 import { motion } from 'framer-motion'
 
 export const Table = styled.div`

@@ -9,7 +9,7 @@ import { Form, Label, NumInput, Submit } from './form'
 
 const calculate = (cool, size, time) => cool * 70000 - (size * 300 + time)
 
-export default calculator = () => {
+export default () => {
   const initialCool = process.window
     ? Number(window.localStorage.getItem('cool'))
     : null

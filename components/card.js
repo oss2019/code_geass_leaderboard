@@ -7,7 +7,7 @@ different states of the animation, and the `className` prop applies the styles t
 application. */
 'use client';
 
-import { css } from 'linaria'
+import { css } from '@linaria/core'
 import { motion } from 'framer-motion'
 
 const variants = {

@@ -1,3 +1,22 @@
+'use client';
+
+import { useState, useEffect } from 'react'
+import Head from 'next/head'
+import { styled } from '@linaria/react'
+import { motion } from 'framer-motion'
+
+import Calculator from '../components/calculator'
+import Leaderboard from '../components/leaderboard'
+
+const Container = styled(motion.main)`
+  width: 100vw;
+  display: grid;
+  padding: 34px 5px;
+  grid-template-areas: '. board calc .';
+  grid-template-columns: 1fr minmax(auto, 815px) minmax(auto, 350px) 1fr;
+  grid-gap: 34px;
+`
+
 import Image from 'next/image'
 import styles from './page.module.css'
 
